@@ -22,7 +22,7 @@ The application is implemented using two COBOL programs executed through JCL job
 
 
 
-## Project Purpose
+\## Project Purpose
 
 This project was created to demonstrate COBOL-DB2 batch processing, sequential file handling, and report generation techniques commonly used in enterprise mainframe systems.
 
@@ -188,6 +188,8 @@ Employee-Account-Batch-Reporting
 
 ```
 
+
+---
 \## Sample Output Files
 
 
@@ -261,6 +263,7 @@ docs/Architecture.md
 
 
 This project demonstrates how enterprise batch reporting systems are implemented in a mainframe environment using COBOL and DB2. The design separates data extraction and report generation into independent modules, improving maintainability and clarity.
+
 
 
 
