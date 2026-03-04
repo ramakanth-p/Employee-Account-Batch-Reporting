@@ -54,31 +54,27 @@ The application processes employee account data in two stages.
 
 DB2 Table (Z88436.Z88436T)
 
-&nbsp;       │
-
-&nbsp;       ▼
+      │
+      ▼
 
 COBOL Program EABR01
 
 (DB2 Data Extraction)
 
-&nbsp;       │
-
-&nbsp;       ▼
+       │
+       ▼
 
 Sequential File (EABRF01)
 
-&nbsp;       │
-
-&nbsp;       ▼
+       │
+       ▼
 
 COBOL Program EABR02
 
 (Report Generation)
 
-&nbsp;       │
-
-&nbsp;       ▼
+       │
+       ▼
 
 Formatted Report (EABRF02)
 
@@ -257,4 +253,5 @@ docs/Architecture.md
 
 
 This project demonstrates how enterprise batch reporting systems are implemented in a mainframe environment using COBOL and DB2. The design separates data extraction and report generation into independent modules, improving maintainability and clarity.
+
 
