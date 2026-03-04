@@ -151,39 +151,22 @@ Responsibilities:
 ```
 
 Employee-Account-Batch-Reporting
-
 │
-
 ├── COBOL
-
 │   ├── EABR01.cbl
-
 │   └── EABR02.cbl
-
 │
-
 ├── JCL
-
 │   ├── EABRJ01.jcl
-
 │   └── EABRJ02.jcl
-
 │
-
 ├── sample-data
-
-│   ├── EABRF01\_sample\_output.txt
-
-│   └── EABRF02\_sample\_report.txt
-
+│   ├── EABRF01_sample_output.txt
+│   └── EABRF02_sample_report.txt
 │
-
-├── docs
-
+├── Architecture
 │   └── Architecture.md
-
 │
-
 └── README.md
 
 ```
@@ -263,6 +246,7 @@ docs/Architecture.md
 
 
 This project demonstrates how enterprise batch reporting systems are implemented in a mainframe environment using COBOL and DB2. The design separates data extraction and report generation into independent modules, improving maintainability and clarity.
+
 
 
 
